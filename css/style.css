@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-html {
+body, html {
     overflow-x: hidden;
-    font: 1rem 'Roboto', sans-serif;
-}
-
-body {
     margin: 0;
+    padding: 0;
+    font: 1rem 'Roboto', sans-serif;
+    margin-right: -20px;
 }
 
 .navbar {
@@ -21,8 +20,7 @@ body {
     max-width: 22px;
 }
 
-.sky-tab-menu,
-.nav-tabs .nav-link {
+.sky-tab-menu, .nav-tabs .nav-link {
     border: none;
 }
 
@@ -31,9 +29,7 @@ body {
     font-weight: bold;
 }
 
-.nav-link.active,
-.sky-tab-menu a:hover,
-.nav-tabs .nav-link:hover {
+.nav-link.active, .sky-tab-menu a:hover, .nav-tabs .nav-link:hover {
     color: #F35C58 !important;
     border-bottom: solid 4px #F35C58 !important;
 }
@@ -205,9 +201,7 @@ h5 {
     margin-top: 36px;
 }
 
-.social-media,
-.about,
-.about-link {
+.social-media, .about, .about-link {
     display: flex;
     justify-content: space-between;
 }
@@ -251,9 +245,7 @@ hr {
     margin-right: 20px;
 }
 
-#text-app,
-.footer-left h1,
-.footer-right h1 {
+#text-app, .footer-left h1, .footer-right h1 {
     font-weight: bold;
     font: 700 1rem 'Roboto', sans-serif;
     color: #606064;
